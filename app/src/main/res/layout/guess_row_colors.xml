@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/guessOne"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:src="@drawable/color_blank" />
+
+    <ImageView
+        android:id="@+id/guessTwo"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:src="@drawable/color_blank" />
+
+    <ImageView
+        android:id="@+id/guessThree"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:src="@drawable/color_blank" />
+
+    <ImageView
+        android:id="@+id/guessFour"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:src="@drawable/color_blank" />
+</TableRow>

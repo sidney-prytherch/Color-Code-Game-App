@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="0dp">
+
+    <TextView
+        android:id="@+id/guessNumber"
+        style="@style/BiggerText"
+        android:gravity="center"
+        android:layout_width="@dimen/guess_number_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/hit"
+        android:layout_width="@dimen/hit_or_blow_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/center"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/blow"
+        android:layout_width="@dimen/hit_or_blow_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

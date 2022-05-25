@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/border.xml" value="0.242" />
+        <entry key="app/src/main/res/drawable/color_blank.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_blue.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_bluegreen.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_darkblue.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_green.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_lightblue.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_orange.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_pink.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_purple.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_red.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/color_yellow.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/ic_check_circle_black_24dp.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/ic_videogame_asset_black_24dp.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_blank.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_blue.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_blue_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_bluegreen.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_bluegreen_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_darkblue.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_darkblue_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_green.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_green_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_lightblue.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_lightblue_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_orange.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_orange_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_pink.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_pink_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_purple.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_purple_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_red.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_red_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/drawable/selected_color_yellow.xml" value="0.2785" />
+        <entry key="app/src/main/res/drawable/selected_color_yellow_checked.xml" value="0.2995" />
+        <entry key="app/src/main/res/layout-land/fragment_options.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout-land/fragment_play.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout-land/guess_row.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17094879150390624" />
+        <entry key="app/src/main/res/layout/card.xml" value="0.29393115942028986" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.29393115942028986" />
+        <entry key="app/src/main/res/layout/fragment_options.xml" value="0.33634490966796876" />
+        <entry key="app/src/main/res/layout/fragment_play.xml" value="0.31261138916015624" />
+        <entry key="app/src/main/res/layout/fragment_play_v2.xml" value="0.3546195652173913" />
+        <entry key="app/src/main/res/layout/guess_row.xml" value="0.29393115942028986" />
+        <entry key="app/src/main/res/layout/guess_row_colors.xml" value="0.3546195652173913" />
+        <entry key="app/src/main/res/layout/how_to_play_fragment.xml" value="0.29393115942028986" />
+        <entry key="app/src/main/res/layout/results_fragment.xml" value="0.29393115942028986" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17094879150390624" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/colorError"
+        style="@style/BiggerText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/not_enough_colors_error"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/row1"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row2"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row3"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row4"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row5"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row6"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row7"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row8"
+        layout="@layout/guess_row" />
+
+    <include
+        android:id="@+id/row9"
+        layout="@layout/guess_row" />
+
+    <TableLayout
+        android:id="@+id/guessesColors"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/guess_number_width"
+        android:layout_marginEnd="@dimen/hit_or_blow_width"
+        android:orientation="vertical"
+        android:stretchColumns="*"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttons"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/row1Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row2Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row3Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row4Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row5Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row6Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row7Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row8Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <include
+            android:id="@+id/row9Colors"
+            layout="@layout/guess_row_colors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </TableLayout>
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/grid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:constraint_referenced_ids="row1, row2, row3, row4, row5, row6, row7, row8, row9"
+        app:flow_horizontalGap="2dp"
+        app:flow_verticalStyle="spread_inside"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/makeGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/make_guess"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/viewResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_results"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:constraint_referenced_ids="makeGuess, viewResults, restart"
+        app:flow_horizontalGap="6dp"
+        app:flow_verticalGap="6dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/colorOptions"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/colorOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        app:constraint_referenced_ids="red, orange, yellow, green, bluegreen, lightblue, darkblue, purple, pink"
+        app:flow_horizontalGap="6dp"
+        app:flow_maxElementsWrap="2"
+        app:flow_verticalGap="6dp"
+        app:flow_wrapMode="aligned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/red"
+        style="@style/square_image"
+        android:background="@drawable/color_red"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/orange"
+        style="@style/square_image"
+        android:background="@drawable/color_orange"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/yellow"
+        style="@style/square_image"
+        android:background="@drawable/color_yellow"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/green"
+        style="@style/square_image"
+        android:background="@drawable/color_green"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/bluegreen"
+        style="@style/square_image"
+        android:background="@drawable/color_bluegreen"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/lightblue"
+        style="@style/square_image"
+        android:background="@drawable/color_lightblue"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/darkblue"
+        style="@style/square_image"
+        android:background="@drawable/color_darkblue"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/purple"
+        style="@style/square_image"
+        android:background="@drawable/color_purple"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/pink"
+        style="@style/square_image"
+        android:background="@drawable/color_pink"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
